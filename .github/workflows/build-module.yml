@@ -20,7 +20,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          repository: friendlyarm/repo
+          repository: friendlyarm/Actions-FriendlyWrt
           ref: v${{ matrix.build_env.tag }}
           fetch-depth: 0
 
